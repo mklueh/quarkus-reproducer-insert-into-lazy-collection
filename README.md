@@ -1,6 +1,8 @@
 # quarkus-reproducer-insert-into-lazy-collection Project
 
-Quarkus Reproducer for the exception that occurs when attempting to insert child entities into a lazy collection using Quarkus Panache Reactive
+Quarkus Reproducer for the exception that occurs when attempting to insert child entities into a lazy collection using Quarkus Panache Reactive.
+
+Related issue: https://github.com/quarkusio/quarkus/issues/23757
 
 ````java
 org.hibernate.LazyInitializationException: HR000056: Collection cannot be initialized: com.example.Parent.lazyChildren
