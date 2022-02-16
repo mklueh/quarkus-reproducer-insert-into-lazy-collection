@@ -1,0 +1,1 @@
+insert into parent(id) values (1);
